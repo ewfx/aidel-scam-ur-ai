@@ -1,0 +1,16 @@
+Transaction ID,Payer Name,Receiver Name,Transaction Details,Amount,Receiver Country
+TXN011,Microsoft Corporation,Adobe Inc.,Software licensing fee,150000,USA
+TXN006,Delta Ventures LLC,Silvergate Holdings,Offshore investment,3200000,British Virgin Islands
+TXN013,Apple Inc.,Foxconn Technology,Component manufacturing payment,12000000,Taiwan
+TXN004,Green Earth Org,CCMI,Environmental project funding,750000,Cayman Islands
+TXN012,Bill & Melinda Gates Foundation,UNICEF,Child vaccination program grant,10000000,Switzerland
+TXN008,TechGlobal Inc.,NordStream Trading,Software licensing,800000,Russia
+TXN001,Acme Corp,SovCo Capital Partners,Payment for services rendered,500000,USA
+TXN014,World Health Organization,Doctors Without Borders,Emergency relief funding,3500000,Switzerland
+TXN009,Sunrise Advisors,Bahamas Luxury Estates,Property investment,2500000,Bahamas
+TXN002,Global Health Foundation,Save the Children,Grant disbursement,2000000,UK
+TXN007,Green Future NGO,MedTech Solutions,Medical equipment donation,1500000,UAE
+TXN010,US Dept. of Energy,Quantum Labs,Research grant,5000000,USA
+TXN005,Oceanic Holdings LLC,Alas Chiricanas,Offshore investment,5000000,Panama
+TXN015,Amazon.com Inc.,FedEx,Logistics services payment,1200000,USA
+TXN003,XYZ Ltd,ABC GmbH,Purchase of office supplies,15000,Germany

@@ -1,0 +1,137 @@
+[
+    {
+        "Transaction ID": "TXN011",
+        "Extracted Entity": ["Microsoft Corporation", "Adobe Inc."],
+        "Entity Type": ["Corporation", "Corporation"],
+        "Risk Score": 0.10,
+        "Supporting Evidence": ["SEC Filings", "OpenCorporates"],
+        "Confidence Score": 0.98,
+        "Reason": "Both entities are publicly listed and legally registered with clear business purposes."
+    },
+    {
+        "Transaction ID": "TXN006",
+        "Extracted Entity": ["Delta Ventures LLC", "Silvergate Holdings"],
+        "Entity Type": ["Shell Company", "Shell Company"],
+        "Risk Score": 0.92,
+        "Supporting Evidence": ["ICIJ Panama Papers", "OFAC Indirect Link"],
+        "Confidence Score": 0.88,
+        "Reason": "Both entities are shell companies; Silvergate Holdings is indirectly owned by a blocked Russian oligarch."
+    },
+    {
+        "Transaction ID": "TXN013",
+        "Extracted Entity": ["Apple Inc.", "Foxconn Technology"],
+        "Entity Type": ["Corporation", "Corporation"],
+        "Risk Score": 0.12,
+        "Supporting Evidence": ["SEC Filings", "Supplier Contracts"],
+        "Confidence Score": 0.97,
+        "Reason": "Standard supply chain transaction between verified tech corporations."
+    },
+    {
+        "Transaction ID": "TXN004",
+        "Extracted Entity": ["Green Earth Org", "CCMI"],
+        "Entity Type": ["NGO", "Shell Company"],
+        "Risk Score": 0.78,
+        "Supporting Evidence": ["Cayman Islands Registry", "ICIJ Leaks"],
+        "Confidence Score": 0.82,
+        "Reason": "CCMI lacks transparency and is registered in a tax haven; Green Earth Org's funding purpose is unclear."
+    },
+    {
+        "Transaction ID": "TXN012",
+        "Extracted Entity": ["Bill & Melinda Gates Foundation", "UNICEF"],
+        "Entity Type": ["Non-Profit", "Non-Profit"],
+        "Risk Score": 0.05,
+        "Supporting Evidence": ["IRS 990 Filings", "UN Annual Reports"],
+        "Confidence Score": 0.99,
+        "Reason": "Entities are high-profile nonprofits with documented humanitarian activities."
+    },
+    {
+        "Transaction ID": "TXN008",
+        "Extracted Entity": ["TechGlobal Inc.", "NordStream Trading"],
+        "Entity Type": ["Corporation", "Sanctioned Entity"],
+        "Risk Score": 0.99,
+        "Supporting Evidence": ["OFAC SDN List"],
+        "Confidence Score": 0.95,
+        "Reason": "NordStream Trading is a sanctioned entity under OFAC SDN List #6543."
+    },
+    {
+        "Transaction ID": "TXN001",
+        "Extracted Entity": ["Acme Corp", "SovCo Capital Partners"],
+        "Entity Type": ["Corporation", "Corporation"],
+        "Risk Score": 0.65,
+        "Supporting Evidence": ["OpenCorporates", "Company Website"],
+        "Confidence Score": 0.95,
+        "Reason": "SovCo Capital Partners is not on sanctions list but an entity of interest. It is owned by Russian businessmen and related to Socombank PJSC, a sanctioned entity."
+    },
+    {
+        "Transaction ID": "TXN014",
+        "Extracted Entity": ["World Health Organization", "Doctors Without Borders"],
+        "Entity Type": ["International Organization", "Non-Profit"],
+        "Risk Score": 0.08,
+        "Supporting Evidence": ["UN Reports", "Charity Navigator"],
+        "Confidence Score": 0.96,
+        "Reason": "Legitimate humanitarian funding between reputable organizations."
+    },
+    {
+        "Transaction ID": "TXN009",
+        "Extracted Entity": ["Sunrise Advisors", "Bahamas Luxury Estates"],
+        "Entity Type": ["Shell Company", "Real Estate"],
+        "Risk Score": 0.85,
+        "Supporting Evidence": ["No Public Registration", "Bahamas Tax Haven"],
+        "Confidence Score": 0.80,
+        "Reason": "Sunrise Advisors lacks verifiable registration; transaction involves a tax haven."
+    },
+    {
+        "Transaction ID": "TXN002",
+        "Extracted Entity": ["Global Health Foundation", "Save the Children"],
+        "Entity Type": ["Non-Profit", "Non-Profit"],
+        "Risk Score": 0.15,
+        "Supporting Evidence": ["UK Charity Commission", "Grant Documentation"],
+        "Confidence Score": 0.94,
+        "Reason": "Standard grant disbursement to a reputable NGO."
+    },
+    {
+        "Transaction ID": "TXN007",
+        "Extracted Entity": ["Green Future NGO", "MedTech Solutions"],
+        "Entity Type": ["NGO", "Corporation"],
+        "Risk Score": 0.75,
+        "Supporting Evidence": ["World Bank PEP List", "Dubai Charity Registry"],
+        "Confidence Score": 0.90,
+        "Reason": "Green Future NGO's director is a PEP; transaction amount exceeds typical donations."
+    },
+    {
+        "Transaction ID": "TXN010",
+        "Extracted Entity": ["US Dept. of Energy", "Quantum Labs"],
+        "Entity Type": ["Government Agency", "Corporation"],
+        "Risk Score": 0.70,
+        "Supporting Evidence": ["World Bank PEP List", "SEC Filings"],
+        "Confidence Score": 0.85,
+        "Reason": "Quantum Labs' CEO is a PEP; grant amount is unusually high for a small lab."
+    },
+    {
+        "Transaction ID": "TXN005",
+        "Extracted Entity": ["Oceanic Holdings LLC", "Alas Chiricanas"],
+        "Entity Type": ["Shell Company", "Corporation"],
+        "Risk Score": 0.90,
+        "Supporting Evidence": ["Panama Papers Database", "Sanctions List"],
+        "Confidence Score": 0.85,
+        "Reason": "Oceanic Holdings LLC is a shell company and finds numerous mentions in Panama papers database. It is a sanctioned entity listed on Specially Designated Nationals and Blocked Persons list."
+    },
+    {
+        "Transaction ID": "TXN015",
+        "Extracted Entity": ["Amazon.com Inc.", "FedEx"],
+        "Entity Type": ["Corporation", "Corporation"],
+        "Risk Score": 0.10,
+        "Supporting Evidence": ["SEC Filings", "Public Contracts"],
+        "Confidence Score": 0.98,
+        "Reason": "Routine logistics payment between publicly traded companies."
+    },
+    {
+        "Transaction ID": "TXN003",
+        "Extracted Entity": ["XYZ Ltd", "ABC GmbH"],
+        "Entity Type": ["Corporation", "Corporation"],
+        "Risk Score": 0.20,
+        "Supporting Evidence": ["German Commercial Register", "Invoice Records"],
+        "Confidence Score": 0.93,
+        "Reason": "Standard business transaction between registered entities."
+    }
+]
