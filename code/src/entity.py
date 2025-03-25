@@ -6,7 +6,10 @@ def search_entity_in_data_sources(entity_name):
     wikidata_response=process_entity(entity_name)
     entity_list=[]
     wikidata_text=''''''
-    if wikidata_response["type"]=="company":
+    if not wikidata_response:
+        entity_list.append(entity_name)
+        wikidata_text=wikidata_text+'''Wikidata does not have enough information to identify the entity'''+entity_name+'''. '''
+    elif wikidata_response["type"]=="company":
         for people in wikidata_response["data"]["people"]:
             entity_list.append(people[0])
         entity_list.append(entity_name)
