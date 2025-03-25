@@ -61,8 +61,18 @@ async def structured_transaction_to_json(file: UploadFile = File(...)):
     reader = csv.DictReader(text_io)
     rows = [row for row in reader]
 
+    # Convert each JSON row into multi-line text
+    formatted_rows = [
+        "\n".join(f"{key}: {value}" for key, value in row.items()) for row in rows
+    ]
+
+    # Log the multi-line formatted rows
+    print("Processed Multi-Line Text:")
+    for row_text in formatted_rows:
+        print(row_text)
+        print("---")  # Separator for clarity in logs
     # Log the processed rows (You can replace this with actual storage or processing)
-    print("Processed JSON rows:", json.dumps(rows, indent=4))
+    #print("Processed JSON rows:", json.dumps(rows, indent=4))
 
     return FileResponse(
         path="./requirements.txt",
@@ -83,10 +93,20 @@ async def unstructured_transaction_to_csv(file: UploadFile = File(...)):
     # Process CSV into JSON
     reader = csv.DictReader(text_io)
     rows = [row for row in reader]
-
+    # Convert each JSON row into multi-line text
     # Log the processed rows (You can replace this with actual storage or processing)
     print("Processed JSON rows:", json.dumps(rows, indent=4))
+    formatted_rows = [
+        "\n".join(f"{key}: {value}" for key, value in row.items()) for row in rows
+    ]
+
+    # Log the multi-line formatted rows
+    print("Processed Multi-Line Text:")
+    for row_text in formatted_rows:
+        print(row_text)
+        print("---")  # Separator for clarity in logs
     
+
     return FileResponse(
         path="./requirements.txt",
         filename="requirements.txt",
