@@ -59,7 +59,7 @@ We have used ReactJS, Tailwind CSS and Radix UI on frontend and FastAPI on the b
 - 🔹 Other: Gemini API, OFAC API, News api, WikiData, Sanctions Lists, ICIJ Leaks API
 
 ## 👥 Team
-- **Mayank Panda** - [GitHub](#) | [LinkedIn](#)
-- **Harshit Bhalla** - [GitHub](#) | [LinkedIn](#)
-- **Keerthana S** - [GitHub](#) | [LinkedIn](#)
+- **Mayank Panda** - [GitHub](https://github.com/MayankPanda) | [LinkedIn](#)
+- **Harshit Bhalla** - [GitHub](https://github.com/aspirin01) | [LinkedIn](#)
+- **Keerthana S** - [GitHub](https://github.com/keerth02) | [LinkedIn](#)
 - **Himanshu Wadhwa** - [GitHub](https://github.com/ninjacode01) | [LinkedIn](#)
