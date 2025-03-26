@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-This project helps analysing risk from transaction in real-time, even for entities without any prior history and gives a comprehensive Risk Report💥.
+This project helps analysing risk from transaction in real-time and gives a comprehensive Risk Report💥.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
