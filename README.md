@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Risky Dhanda
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,6 +14,7 @@
 ---
 
 ## 🎯 Introduction
+
 A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
 
 ## 🎥 Demo
@@ -37,24 +38,27 @@ Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏃 How to Run
 1. Clone the repository  
-   ```sh
+   ```
    git clone https://github.com/your-repo.git
    ```
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   ```
+   cd code/src
+   pip install -r requirements.txt
    ```
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
+   ```
+   fastapi dev app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
+- 🔹 Frontend: None
+- 🔹 Backend:  FastAPI
 - 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Other: Gemini, OFAC, News api, WikiData, Sanctions Lists
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Himanshu Wadhwa** - [GitHub](#) | [LinkedIn](#)
+- **Mayank Panda** - [GitHub](#) | [LinkedIn](#)
+- **Harshit Bhalla** - [GitHub](#) | [LinkedIn](#)
+- **Keerthana S** - [GitHub](#) | [LinkedIn](#)
