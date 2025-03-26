@@ -1,4 +1,4 @@
-# 🚀 Risky Dhanda
+# 🚀 Manda hai par Dhandha hai
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
