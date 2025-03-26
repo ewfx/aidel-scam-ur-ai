@@ -1,4 +1,4 @@
-# 🚀 Ganda hai par Dhandha hai
+# 🚀 Scam-ur-ai
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
