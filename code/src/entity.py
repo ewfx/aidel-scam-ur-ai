@@ -8,7 +8,7 @@ def search_entity_in_data_sources(entity_name):
     wikidata_text=''''''
     if not wikidata_response:
         wikidata_response={}
-        wikidata_response['type']=='NotFound'
+        wikidata_response['type']='NotFound'
         entity_list.append(entity_name)
         wikidata_text=wikidata_text+'''Wikidata does not have enough information to identify the entity'''+entity_name+'''. '''
     elif wikidata_response["type"]=="company":
@@ -53,7 +53,9 @@ def search_entity_in_data_sources(entity_name):
 
     news_sentiment_text=''''''
     news_sentiment_score=get_sentiment_score(entity_name)
-    if(news_sentiment_score==-1):
+    if(not news_sentiment_score):
+        news_sentiment_text='''No news articles were found for the entity'''+entity_name+'''. '''
+    elif(news_sentiment_score==-1):
         news_sentiment_text='''No news articles were found for the entity'''+entity_name+'''. '''
     else:
         news_sentiment_text='''The average sentiment score pertaining to potential financial misdoings for the news articles related to the entity'''+entity_name+''' is '''+str(news_sentiment_score[0])+'''. '''

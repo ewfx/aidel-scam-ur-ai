@@ -43,6 +43,8 @@ def get_sentiment_score(query):
         if(success_count==0):
             return -1
         return [score/success_count,reasoning]
+    else:
+        return -1
 
 
 get_news_articles("Google")

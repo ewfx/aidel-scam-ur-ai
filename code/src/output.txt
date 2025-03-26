@@ -1,0 +1,72 @@
+ For the entitylobal Horizons Consulting LLC, the following information was found: 
+ Wikidata Results Summary:
+Wikidata does not have enough information to identify the entitylobal Horizons Consulting LLC. 
+
+ News Articles Summary:
+No news articles were found for the entitylobal Horizons Consulting LLC. 
+
+ Sanction Search Summary: 
+The entitylobal Horizons Consulting LLC was not found in any of the sanction lists or PEP lists 
+
+ ICIJ Leaks Database Search Summary:
+The entitylobal Horizons Consulting LLC was not found in any of the ICIJ leaks 
+ For the entityBright Future Nonprofit Inc, the following information was found: 
+ Wikidata Results Summary:
+Wikidata does not have enough information to identify the entityBright Future Nonprofit Inc. 
+
+ News Articles Summary:
+The average sentiment score pertaining to potential financial misdoings for the news articles related to the entityBright Future Nonprofit Inc is 0.1. And the combined summary of all parsed news articles is as follows: The article excerpt mentions political aims and alliances with conservative politicians. While this doesn't inherently indicate financial misdoings, the involvement of money in politics and the potential for undue influence or quid pro quo arrangements warrant a very low risk score. The absence of specific details about financial transactions or impropriety keeps the score low. Further investigation is needed to determine if any actual financial misconduct has occurred. The mention of an organization also raises the risk slightly as funds can be used to hide the purpose.
+
+ Sanction Search Summary: 
+The entityBright Future Nonprofit Inc was not found in any of the sanction lists or PEP lists 
+
+ ICIJ Leaks Database Search Summary:
+The entityBright Future Nonprofit Inc was not found in any of the ICIJ leaks 
+ For the entityAli Al-Mansoori, the following information was found: 
+ Wikidata Results Summary:
+Wikidata does not have enough information to identify the entityAli Al-Mansoori. 
+
+ News Articles Summary:
+No news articles were found for the entityAli Al-Mansoori. 
+
+ Sanction Search Summary: 
+The entityAli Al-Mansoori was not found in any of the sanction lists or PEP lists 
+
+ ICIJ Leaks Database Search Summary:
+The entityAli Al-Mansoori was not found in any of the ICIJ leaks 
+ For the entityQuantum Holdings Ltd, the following information was found: 
+ Wikidata Results Summary:
+Wikidata does not have enough information to identify the entityQuantum Holdings Ltd. 
+
+ News Articles Summary:
+The average sentiment score pertaining to potential financial misdoings for the news articles related to the entityQuantum Holdings Ltd is 0.0. And the combined summary of all parsed news articles is as follows: The provided news article discusses the stock price drop and trading volume of Quantum Biopharma Ltd. This information relates to the company's market performance, not potential financial misdoings such as fraud, embezzlement, money laundering, or bribery. There is no mention of any investigation, lawsuit, or suspicious transaction that would suggest financial misconduct.The provided text describes a routine investment activity reported in a 13F filing. Sanctuary Advisors LLC purchased shares of Quantum-Si incorporated. This type of transaction is a normal part of investment management and reporting, and there's no indication of any financial misdoings, fraud, or other illicit activities based solely on this information. A 13F filing is a standard report that institutional investment managers file with the SEC, disclosing their equity holdings. Therefore, there is no reason to assign a risk score higher than 0.The news article describes a Bank of New York Mellon Corp increasing its holdings in D-Wave Quantum Inc. This activity, in itself, does not indicate any financial misdoings such as scandals, fraud, embezzlement, money laundering, or bribery. It simply reflects an investment decision, which is a normal part of financial market operations. There are no red flags present in the text.The provided snippet describes an analyst report from HC Wainwright regarding Quantum-Si's future EPS estimates. There is no information presented suggesting financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The article excerpt focuses on financial analysis and future projections, which are standard practices in the financial industry. Therefore, the financial risk score is 0.This news article excerpt discusses a price target increase and a 'buy' rating by Roth Mkm for D-Wave Quantum (QBTS). It focuses on stock market analysis and analyst opinions. There is no mention or indication of any financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. Therefore, the financial risk score is 0.This news article discusses a target price increase and buy rating for D-Wave Quantum by B. Riley. It focuses on analyst perspectives and stock market information. There are no indications of financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings in the provided snippet. Therefore, the financial risk score is 0.Based solely on the provided excerpt, there is no indication of financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The article describes a company, Sigma Planning Corp, increasing its investment in another company, Atomera Incorporated, as reported in a standard SEC filing (Form 13F). This type of activity is common and doesn't inherently suggest any wrongdoing.Based on the provided snippet of a news article, there is no indication whatsoever of any financial scandal, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The text simply states that a company, Quantum BioPharma Ltd., is announcing something after receiving approval, and gives its stock tickers on multiple exchanges. This is typical corporate communication and doesn't raise any red flags. Therefore, the financial risk score is 0.Based on the provided excerpt, there is no indication of any financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The article simply describes a fund, Proficio Capital Partners LLC, purchasing a stake in IonQ, Inc. and reporting it in a Form 13F filing with the SEC. This is a standard investment activity and reporting requirement, and doesn't suggest any illegal or unethical behavior.The news article describes a routine investment activity: Steward Partners increasing its holdings in Booz Allen Hamilton. There is no mention or implication of any financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The increase in holdings appears to be a standard investment decision, and there are no red flags present in the provided text.
+
+ Sanction Search Summary: 
+The entityQuantum Holdings Ltd was not found in any of the sanction lists or PEP lists 
+
+ ICIJ Leaks Database Search Summary:
+The entityQuantum Holdings Ltd was not found in any of the ICIJ leaks 
+ For the entityNordVPN, the following information was found: 
+ Wikidata Results Summary:
+Wikidata identifies the entityNordVPN as a company.The company has the following companies associated with it: Groupe Nord, 
+
+ News Articles Summary:
+The average sentiment score pertaining to potential financial misdoings for the news articles related to the entityNordVPN is 0.01. And the combined summary of all parsed news articles is as follows: The provided article snippet discusses the features of VPNs like NordVPN, focusing on privacy and malware protection. There is no indication of financial misdoings, fraud, embezzlement, money laundering, or bribery within the context of this short excerpt. Therefore, the financial risk score is 0.The article primarily discusses region-locked content on streaming services. There is no mention or even subtle indication of financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The topic revolves around content licensing and distribution strategies, not illicit financial activities.The provided news article discusses an upcoming soccer match between England and Italy and how to watch it. There is absolutely no mention or suggestion of any financial impropriety, scandal, fraud, or illegal financial activities. Therefore, the risk score is 0.The provided news article snippet discusses the start date of the Formula 1 2025 season and the Australian Grand Prix. There is no information in the text that suggests any financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. Therefore, the financial risk score is 0.The article is a promotional piece for NordVPN's birthday sale. It advertises discounts and offers, but contains no information that suggests financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The language is purely marketing-oriented and doesn't hint at any illegal or unethical activity related to finance.The article mentions being "fleeced for private data by brokers," which, while not explicitly detailing financial crimes, hints at potential illicit enrichment through data exploitation. This could involve unauthorized sale of personal information or other privacy violations that generate revenue for the brokers, which might constitute financial misdoings, though the article does not explicitly mention illegal acts. However, the vague nature of the statement means the likelihood of severe financial scandal is low.The news article is a simple advertisement for NordVPN, mentioning a promotional sale. There is absolutely no indication of any financial misdoings such as fraud, embezzlement, money laundering, or bribery. Therefore, the financial risk score is 0.The provided article snippet is a brief review of NordVPN. It focuses on the service's features and usability. There is absolutely no mention of financial activities, transactions, or corporate governance that would suggest any financial impropriety. Therefore, the financial risk score is 0.The news article discusses ways to watch the Thailand MotoGP race for free online. There is no indication of financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings within the provided context. The article focuses on accessing content for free, which, while potentially impacting revenue streams, doesn't inherently imply illegal or unethical financial activities.The provided news article snippet is about a sports event (Six Nations rugby tournament). There is absolutely no information presented that suggests any financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The content focuses on the sporting competition and the Italy vs. Ireland match. Therefore, the financial risk score is 0.
+
+ Sanction Search Summary: 
+The company , its subsidiaries and the people associated NordVPN was not found in any of the sanction lists or PEP lists 
+
+ ICIJ Leaks Database Search Summary:
+The company , its subsidiaries and the people associated NordVPN was not found in any of the ICIJ leaks 
+ For the entityCayman National Ban, the following information was found: 
+ Wikidata Results Summary:
+Wikidata does not have enough information to identify the entityCayman National Ban. 
+
+ News Articles Summary:
+The average sentiment score pertaining to potential financial misdoings for the news articles related to the entityCayman National Ban is 0.1. And the combined summary of all parsed news articles is as follows: The news article discusses a ban on TikTok in Albania. This measure, stemming from growing governmental concerns, does not inherently suggest any financial scandals, fraud, embezzlement, money laundering, bribery, or other financial misdoings. The ban itself might have financial implications for businesses or individuals, but the article provides no information suggesting illicit financial activity is the cause or a consequence of the ban.The news article mentions three senior leaders at Trump Media & Technology Group launching a blank-check company (SPAC). While SPACs are legitimate financial instruments, they have been known to be associated with inflated valuations and potential conflicts of interest. The focus on crypto and related industries, known for its volatility and potential for illicit activities, adds another layer of risk. The mention of the 'Trump administration seeks to shape' may also raise red flags as there might be conflicts of interest depending on how that influence is leveraged. However, the article itself doesn't provide explicit evidence of financial scandals, fraud, or other misdoings, only potential areas of concern. Thus, the score is low, reflecting a possible but not confirmed risk.
+
+ Sanction Search Summary: 
+The entityCayman National Ban was not found in any of the sanction lists or PEP lists 
+
+ ICIJ Leaks Database Search Summary:
+The entityCayman National Ban was not found in any of the ICIJ leaks 
