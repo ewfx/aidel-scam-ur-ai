@@ -14,8 +14,7 @@
 ---
 
 ## 🎯 Introduction
-
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+This project helps analysing risk from transaction in real-time, even for entities without any prior history and gives a comprehensive Risk Report💥.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -34,8 +33,8 @@ This solution extracts entities from the transaction, searches from them in the 
 Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
--Handling Entities not found in databases
--Assigning a Risk score, Confidence Score
+- Handling Entities not found in databases
+- Assigning a Risk score, Confidence Score
 
 ## 🏃 How to Run
 1. Clone the repository  
