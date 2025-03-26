@@ -1,4 +1,4 @@
-# 🚀 Manda hai par Dhandha hai
+# 🚀 Ganda hai par Dhandha hai
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
