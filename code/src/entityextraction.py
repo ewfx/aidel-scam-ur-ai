@@ -4,6 +4,7 @@
 
 import google.generativeai as genai
 import json
+from entity import search_entity_in_data_sources
 gemini_api_key=None
 with open('creds.json', 'r') as file:
     data = json.load(file)
@@ -28,34 +29,17 @@ def extractNames(transaction_data):
             if attempt < retries - 1:
                 continue  # Retry on failure
             return f"Error extracting entities after {retries} attempts: {e}"
-    
-transaction_text='''Transaction ID: TXN-2023-5A9B
-Date: 2023-08-15 14:22:00
-Sender:
-  -Name: 'ROSNEFT OIL COMPANY'
-  -Account: IBAN CH56 0483 5012 3456 7800 9 (Swiss bank)
-  -Address: Rue du Marche 17, Geneva, Switzerland
-  -Notes: 'Consulting fees for project Aurora'
-Receiver:
-  -Name: 'YAKIMA OIL TRADING, LLP'
-  -Account: 987654321 (Cayman National Bank, KY)
-  -Address: P.O. Box 1234, George Town, Cayman Islands
-  -Tax ID: KY-45678
-Amount: $49,850 (USD)
-Currency Exchange: N/A
-Transaction Type: Wire Transfer
-Reference: 'Charitable Donation - Ref #DR-2023-0815
-Additional Notes:
-  - Urgent transfer approved by Mr. Ali Hussein Falih Al-Mansoori (Director)
-  - Linked invoice missing. Processed via intermediary Lasca Holding Ltd
-  - Sender IP: 192.168.89.123 (VPN detected: NordVPN, exit node in Panama)'''
 
-entities=extractNames(transaction_text)
-print(entities)
-from entity import search_entity_in_data_sources
-optext = ""
-for entity in entities:
-    optext += search_entity_in_data_sources(entity) + "\n\n\n\n"
-print(optext)
-with open('output.txt', 'w') as f:
-    f.write(optext)
+
+def data_source_analysis(transaction_data):
+    entities = extractNames(transaction_data)
+    print(entities)
+    if(len(entities)==0):
+        return "No entities found in the transaction data."
+    optext = ""
+    for entity in entities:
+        if(entity and (len(entity)>0)):
+            optext += search_entity_in_data_sources(entity) + "\n\n"
+    return optext
+
+
