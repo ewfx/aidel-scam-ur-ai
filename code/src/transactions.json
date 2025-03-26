@@ -1,0 +1,59 @@
+[
+    {
+        "Transaction ID": "TXN-2023-5A9B",
+        "Extracted Entity": [
+            "Rosneft Oil Company",
+            "YAKIMA OIL TRADING, LLP",
+            "Ali Hussein Falih Al-Mansoori",
+            "Lasca Holding Ltd"
+        ],
+        "Entity Type": [
+            "Oil Company",
+            "Limited Liability Partnership",
+            "Individual",
+            "Holding Company"
+        ],
+        "Risk Score": 0.85,
+        "Supporting Evidence": [
+            "Consolidated Sanctions List",
+            "SDN List",
+            "Paradise Papers",
+            "VPN Usage",
+            "Missing Invoice",
+            "Cayman Islands Incorporation"
+        ],
+        "Confidence Score": 0.9,
+        "Reason": "Rosneft Oil Company is sanctioned. YAKIMA OIL TRADING, LLP is listed on the SDN list and appears in the ICIJ leaks database. Ali Hussein Falih Al-Mansoori is a sanctioned individual. The transaction involves a company incorporated in the Cayman Islands, usage of VPN with an exit node in Panama, and a missing invoice, increasing risk."
+    },
+    {
+        "Transaction ID": "TXN-2023-5A9C",
+        "Extracted Entity": [
+            "Rosneft Oil Company",
+            "YAKIMA OIL TRADING, LLP",
+            "Ali Hussein Falih Al-Mansoori",
+            "Lasca Holding Ltd",
+            "Cayman National Bank"
+        ],
+        "Entity Type": [
+            "Oil Company",
+            "Limited Liability Partnership",
+            "Individual (Director)",
+            "Holding Company",
+            "Bank"
+        ],
+        "Risk Score": 0.85,
+        "Supporting Evidence": [
+            "Consolidated Sanctions List",
+            "SDN List",
+            "Paradise Papers - ICIJ Leaks Database",
+            "VPN usage",
+            "Missing Invoice",
+            "Urgent Transfer"
+        ],
+        "Confidence Score": 0.9,
+        "Reason": "Transaction involves entities with potential sanctions hits (Rosneft, YAKIMA OIL TRADING, Ali Hussein Falih Al-Mansoori), an intermediary found in the ICIJ Leaks database (Lasca Holding Ltd), VPN usage from sender, missing invoice, and urgent transfer approval.  These factors, combined with the Cayman Islands jurisdiction of the receiver's bank, elevate the risk.  While 'Rosneft Oil Company' shows high similarity scores to sanctioned entities, final determination of risk requires precise matching to exact legal names on the sanctions lists. Also, the news articles for LLP and Cayman National Bank has some negative sentiment, but the news is not directly linked to this transaction, and the sender used a VPN exit node in Panama, which is a high-risk jurisdiction."
+    },
+    {
+        "error": "Error generating output after 3 attempts: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+    }
+]

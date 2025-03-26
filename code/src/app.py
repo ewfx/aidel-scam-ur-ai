@@ -5,6 +5,7 @@ import csv
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse, FileResponse
 from pydantic import BaseModel
+from generateoutput import process_transaction
 app = FastAPI()
 
 # Define request model for multi-line text input
@@ -15,12 +16,11 @@ class TransactionData(BaseModel):
 async def upload_text(data: TransactionData):
     # Log the received text
     print("Received Multi-Line Text:\n", data.text)
-
-    return FileResponse(
-        path="./requirements.txt",
-        filename="requirements.txt",
-        media_type="application/octet-stream",
-    )
+    transaction_analysis=process_transaction(data.text)
+    if(isinstance(transaction_analysis,dict)):
+        return transaction_analysis
+    else:
+        return {"error":transaction_analysis}
 @app.post("/txt_to_json")
 async def unstructured_transaction_to_json(file: UploadFile = File(...)):
     # Ensure the uploaded file is a .txt file
@@ -36,9 +36,19 @@ async def unstructured_transaction_to_json(file: UploadFile = File(...)):
     # Log the processed sections (You can replace this with actual storage or processing)
     print("Processed sections:", sections)
     print("Number of sections:" , len(sections))
+    responses=[]
+    for section in sections:
+        transaction_analysis=process_transaction(section)
+        if(isinstance(transaction_analysis,dict)):
+            responses.append(transaction_analysis)
+        else:
+            responses.append({"error":transaction_analysis})
+    # Convert and save as JSON file
+    with open("transactions.json", "w", encoding="utf-8") as json_file:
+        json.dump(responses, json_file, indent=4)
     return FileResponse(
-        path="./requirements.txt",
-        filename="requirements.txt",
+        path="./transactions.json",
+        filename="transactions.json",
         media_type="application/octet-stream",
     )
 
@@ -54,10 +64,35 @@ async def unstructured_transaction_to_csv(file: UploadFile = File(...)):
 
     # Split the text into chunks based on the "---" delimiter
     sections = [section.strip() for section in text.split("---") if section.strip()]
+    responses=[]
+    for section in sections:
+        transaction_analysis=process_transaction(section)
+        if(isinstance(transaction_analysis,dict)):
+            responses.append(transaction_analysis)
+        else:
+            responses.append({"error":transaction_analysis})
+    
+    # Find all unique keys across all dictionaries
+    fieldnames = set()
+    for item in responses:
+        fieldnames.update(item.keys())
+    fieldnames = list(fieldnames)  # Convert set to list for CSV headers
 
+    # Write to CSV file
+    with open("output.csv", "w", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        
+        # Write header
+        writer.writeheader()
+        
+        # Write rows
+        for row in responses:
+            writer.writerow(row)  # Missing fields will be left blank in CSV
+
+    print("CSV file 'output.csv' created successfully!")
     return FileResponse(
-        path="./requirements.txt",
-        filename="requirements.txt",
+        path="./output.csv",
+        filename="output.csv",
         media_type="application/octet-stream",
     )
 
@@ -82,15 +117,19 @@ async def structured_transaction_to_json(file: UploadFile = File(...)):
 
     # Log the multi-line formatted rows
     print("Processed Multi-Line Text:")
+    responses=[]
     for row_text in formatted_rows:
-        print(row_text)
-        print("---")  # Separator for clarity in logs
-    # Log the processed rows (You can replace this with actual storage or processing)
-    #print("Processed JSON rows:", json.dumps(rows, indent=4))
-
+        transaction_analysis=process_transaction(row_text)
+        if(isinstance(transaction_analysis,dict)):
+            responses.append(transaction_analysis)
+        else:
+            responses.append({"error":transaction_analysis})
+    # Convert and save as JSON file
+    with open("transactions.json", "w", encoding="utf-8") as json_file:
+        json.dump(responses, json_file, indent=4)
     return FileResponse(
-        path="./requirements.txt",
-        filename="requirements.txt",
+        path="./transactions.json",
+        filename="transactions.json",
         media_type="application/octet-stream",
     )
 
@@ -116,13 +155,34 @@ async def unstructured_transaction_to_csv(file: UploadFile = File(...)):
 
     # Log the multi-line formatted rows
     print("Processed Multi-Line Text:")
+    responses=[]
     for row_text in formatted_rows:
-        print(row_text)
-        print("---")  # Separator for clarity in logs
+        transaction_analysis=process_transaction(row_text)
+        if(isinstance(transaction_analysis,dict)):
+            responses.append(transaction_analysis)
+        else:
+            responses.append({"error":transaction_analysis})
     
+    # Find all unique keys across all dictionaries
+    fieldnames = set()
+    for item in responses:
+        fieldnames.update(item.keys())
+    fieldnames = list(fieldnames)  # Convert set to list for CSV headers
 
+    # Write to CSV file
+    with open("output.csv", "w", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        
+        # Write header
+        writer.writeheader()
+        
+        # Write rows
+        for row in responses:
+            writer.writerow(row)  # Missing fields will be left blank in CSV
+
+    print("CSV file 'output.csv' created successfully!")
     return FileResponse(
-        path="./requirements.txt",
-        filename="requirements.txt",
+        path="./output.csv",
+        filename="output.csv",
         media_type="application/octet-stream",
     )

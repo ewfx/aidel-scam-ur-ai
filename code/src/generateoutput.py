@@ -1,4 +1,4 @@
-from entityextraction import extractNames
+from entityextraction import extractNames,data_source_analysis
 from entity import search_entity_in_data_sources
 import google.generativeai as genai
 import json
@@ -169,4 +169,6 @@ def generateFinalOutput(transaction_data, rag_analysis):
                 continue  # Retry on failure
             return f"Error generating output after {retries} attempts: {e}"
         
-print(generateFinalOutput(transaction_data, rag_analysis))
+def process_transaction(transaction_data):
+    rag_analysis=data_source_analysis(transaction_data)
+    return generateFinalOutput(transaction_data, rag_analysis)
