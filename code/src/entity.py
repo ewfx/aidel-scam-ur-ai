@@ -60,10 +60,10 @@ def search_entity_in_data_sources(entity_name):
     else:
         news_sentiment_text='''The average sentiment score pertaining to potential financial misdoings for the news articles related to the entity'''+entity_name+''' is '''+str(news_sentiment_score[0])+'''. '''
         news_sentiment_text=news_sentiment_text+'''And the combined summary of all parsed news articles is as follows: '''+news_sentiment_score[1]
-    #print("News Sentiment Data",news_sentiment_score)
+    print("News Sentiment Data",news_sentiment_score)
 
     search_result=multi_search(entity_list)
-    #print("Sanction Search",search_result)
+    print("Sanction Search",search_result)
 
     sanction_search_text=''''''
     if(wikidata_response["type"]=="person"):
@@ -77,7 +77,7 @@ def search_entity_in_data_sources(entity_name):
         if(len(search_result)>0):
             sanction_search_text='''The company, its subsidiaries and the people associated '''+entity_name+''' were found in the following search results:'''
             for result in search_result:
-                sanction_search_text=sanction_search_text+'''Searched Term: '''+search_result[0]+''' Matched with: '''+result[1]+''' from the source: '''+result[2]+''' with the similarity score: '''+str(result[3])+'''. \n'''
+                sanction_search_text=sanction_search_text+'''Searched Term: '''+result[0]+''' Matched with: '''+result[1]+''' from the source: '''+result[2]+''' with the similarity score: '''+str(result[3])+'''. \n'''
         else:
             sanction_search_text='''The company , its subsidiaries and the people associated '''+entity_name+''' was not found in any of the sanction lists or PEP lists '''
     else:
@@ -89,7 +89,7 @@ def search_entity_in_data_sources(entity_name):
             sanction_search_text='''The entity: '''+entity_name+''' was not found in any of the sanction lists or PEP lists '''
 
     icij_search_result=icij_multi_search(entity_list)
-    #print("ICIJ Search",icij_search_result)
+    print("ICIJ Search",icij_search_result)
     icij_search_text=''''''
     if(not icij_search_result):
         icij_search_text='''No search results were found for the entity: '''+entity_name+''' in the ICIJ leaks database. '''
