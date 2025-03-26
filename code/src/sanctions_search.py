@@ -88,7 +88,7 @@ def multi_search_in_api(words):
                     source=match["source"]
                     match_name=match["name"]
                     similarity_score=similar(match_name,searched_term)
-                    if (similarity_score>0.9):
+                    if (similarity_score>0.8):
                         match_list.append([searched_term,match_name,source,similarity_score])
         return match_list  # Return the JSON response
     except requests.exceptions.RequestException as e:
@@ -129,19 +129,19 @@ def search_in_local_data(word):
         source="Consolidated Sanction"
         match_name=result
         similarity_score=similar(match_name,word)
-        if (similarity_score>0.85):
+        if (similarity_score>0.78):
             match_list.append([word,match_name,source,similarity_score])
     for result in sanction_result:
         source="Sanction"
         match_name=result
         similarity_score=similar(match_name,word)
-        if (similarity_score>0.85):
+        if (similarity_score>0.78):
             match_list.append([word,match_name,source,similarity_score])
     for result in pep_result:
         source="PEP"
         match_name=result
         similarity_score=similar(match_name,word)
-        if (similarity_score>0.85):
+        if (similarity_score>0.78):
             match_list.append([word,match_name,source,similarity_score])
     return match_list  # Return the JSON response
 
@@ -191,7 +191,7 @@ def icij_search(word):
             match_name=match["name"]
             similarity_score=match["score"]
             description=match["description"]
-            if (similarity_score>90):
+            if (similarity_score>80):
                 match_list.append([word,match_name,similarity_score,description])
         return match_list
     except requests.exceptions.RequestException as e:
@@ -230,7 +230,7 @@ def icij_multi_search(words):
                 match_name=match["name"]
                 similarity_score=match["score"]
                 description=match["description"]
-                if (similarity_score>90):
+                if (similarity_score>80):
                     match_list.append([search_word,match_name,similarity_score,description])
         return match_list
     except requests.exceptions.RequestException as e:
