@@ -34,7 +34,7 @@ We have used ReactJS, Tailwind CSS and Radix UI on frontend and FastAPI on the b
 
 ## 🚧 Challenges We Faced
 - Handling Entities not found in any data sources like Wikidata, sanctions, news etc.
-- Assigning a Risk score, Confidence Score based on whatever data we collected from our external data sources
+- Choosing metrics by which to quantify risk and confidence in the form of a numerical score
 - Handling rate limitations and quotas on certain APIs like OFAC API and News API which could result in less data available for Risk Analysis.
 
 ## 🏃 How to Run
