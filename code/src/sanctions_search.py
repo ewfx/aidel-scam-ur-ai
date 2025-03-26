@@ -154,6 +154,7 @@ def process_search(word):
         return api_result #return the result, so you can use it later.
     else:
         print("API call failed, using local data:")
+
         func1_result = search_in_local_data(word)
         print(func1_result)
         return func1_result #return the result, so you can use it later.
@@ -170,7 +171,15 @@ def multi_search(words):
         match_list=[]
         for word in words:
             if isinstance(word, str):
-                match_list.extend(search_in_local_data(word))
+                # Iterate through each character in the string
+                lc=0
+                for char in word:
+                
+                # Check if the character is a letter
+                    if char.isalpha():  
+                        lc+= 1
+                if(lc>2):
+                    match_list.extend(search_in_local_data(word))
         return match_list #return the result, so you can use it later.
 def icij_search(word):
  

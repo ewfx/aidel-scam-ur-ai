@@ -6,7 +6,17 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse, FileResponse
 from pydantic import BaseModel
 from generateoutput import process_transaction
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
 
 # Define request model for multi-line text input
 class TransactionData(BaseModel):
