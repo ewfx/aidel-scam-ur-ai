@@ -4,9 +4,23 @@ import io
 import csv
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse, FileResponse
+from pydantic import BaseModel
 app = FastAPI()
 
+# Define request model for multi-line text input
+class TransactionData(BaseModel):
+    text: str
 
+@app.post("/transaction_analysis")
+async def upload_text(data: TransactionData):
+    # Log the received text
+    print("Received Multi-Line Text:\n", data.text)
+
+    return FileResponse(
+        path="./requirements.txt",
+        filename="requirements.txt",
+        media_type="application/octet-stream",
+    )
 @app.post("/txt_to_json")
 async def unstructured_transaction_to_json(file: UploadFile = File(...)):
     # Ensure the uploaded file is a .txt file

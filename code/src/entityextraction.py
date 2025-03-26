@@ -29,11 +29,14 @@ def extractNames(transaction_data):
                 continue  # Retry on failure
             return f"Error extracting entities after {retries} attempts: {e}"
     
+transaction_text='''Transaction ID: TXN-2023-7C2D  
+   Sender: "Goldman Sachs" (BVI, Account: VGB2BVIR024987654321)  
+   Receiver: "Mossack Fonzseca" (UAE, Account: AE450330000012345678901)  
+   Amount: $950000  
+   Notes: "Commodity trade. Approver: Mr. Viktor Petrov (OFAC SDN #9876)."'''
 
-with open('sampletransaction.txt') as f:
-    text = f.read()
-    entities = extractNames(text)
-    print(entities)
+entities=extractNames(transaction_text)
+print(entities)
 from entity import search_entity_in_data_sources
 optext = ""
 for entity in entities:
