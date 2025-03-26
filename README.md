@@ -52,9 +52,9 @@ Briefly outline the technologies, frameworks, and tools used in development.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: None
+- 🔹 Frontend: None as of now
 - 🔹 Backend:  FastAPI
-- 🔹 Database: PostgreSQL / Firebase
+- 🔹 Database: None as of now
 - 🔹 Other: Gemini, OFAC, News api, WikiData, Sanctions Lists
 
 ## 👥 Team
