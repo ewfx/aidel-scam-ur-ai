@@ -20,12 +20,20 @@ This project helps analysing risk from transaction in real-time and gives a comp
 📹 [Video Demo](./artifacts/demo/demo-video.mp4)
 🖼️ Screenshots:
 
-![Screenshot 1](./artifacts/demo/unstructured_data.png "Unstructured Data Loaded")
-![Screenshot 2](./artifacts/demo/structured_data.png "Structured Data Loaded")
-![Screenshot 3](./artifacts/demo/generated_data.png "Returned JSON")
-![Screenshot 4](./artifacts/demo/download_options.png "Download Options")
+![Screenshot 1](./artifacts/demo/landing_page.png "Landing Page")
+*Landing Page*
+![Screenshot 2](./artifacts/demo/unstructured_data.png "Unstructured Data Loaded")
+*Unstructured Data Loaded*
+![Screenshot 3](./artifacts/demo/structured_data.png "Structured Data Loaded")
+*Structured Data Loaded*
+![Screenshot 4](./artifacts/demo/generated_data.png "Returned JSON")
+*Returned JSON*
+![Screenshot 5](./artifacts/demo/download_options.png "Download Options")
+*Download Options*
 
 [Documentation](./artifacts/demo/Solution.pdf "Presentation PDF")
+
+
 ## 💡 Inspiration
 Real-time risk analysis is much required for analysing transactions involving new entities for which banks may not have any history. Latest news articles, sanction lists or information about the entities involved along with reviewing key transaction details can help in analysing risk in realtime and blocking such transactions.
 
