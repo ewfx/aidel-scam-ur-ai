@@ -7,6 +7,8 @@ def search_entity_in_data_sources(entity_name):
     entity_list=[]
     wikidata_text=''''''
     if not wikidata_response:
+        wikidata_response={}
+        wikidata_response['type']=='NotFound'
         entity_list.append(entity_name)
         wikidata_text=wikidata_text+'''Wikidata does not have enough information to identify the entity'''+entity_name+'''. '''
     elif wikidata_response["type"]=="company":
@@ -112,4 +114,4 @@ def search_entity_in_data_sources(entity_name):
     full_analysis_text=''' For the entity'''+entity_name+''', the following information was found: \n Wikidata Results Summary:\n'''+wikidata_text+'''\n\n News Articles Summary:\n'''+news_sentiment_text+'''\n\n Sanction Search Summary: \n'''+sanction_search_text+'''\n\n ICIJ Leaks Database Search Summary:\n'''+icij_search_text
     return full_analysis_text
 
-print(search_entity_in_data_sources("Microsoft"))
+# print(search_entity_in_data_sources("Microsoft"))
