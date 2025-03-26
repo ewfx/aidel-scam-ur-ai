@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Ganda hai par Dhandha hai
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+This project helps analysing risk from transaction in real-time and gives a comprehensive Risk Report💥.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +24,41 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Real-time risk analysis is much required for analysing transactions involving new entities for which banks may not have any history. Latest news articles, sanction lists or information about the entities involved along with reviewing key transaction details can help in analysing risk in realtime and blocking such transactions.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+This solution extracts entities from the transaction, searches from them in the open-source databases, fetches data from them and finally generates a risk analysis report.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+- Handling Entities not found in databases
+- Assigning a Risk score, Confidence Score
 
 ## 🏃 How to Run
 1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
+   ```
+   git clone https://github.com/ewfx/aidel-scam-ur-ai.git
    ```
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   ```
+   cd code/src
+   pip install -r requirements.txt
    ```
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
+   ```
+   fastapi dev app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: None as of now
+- 🔹 Backend:  FastAPI
+- 🔹 Database: None as of now
+- 🔹 Other: Gemini, OFAC, News api, WikiData, Sanctions Lists
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Mayank Panda** - [GitHub](#) | [LinkedIn](#)
+- **Harshit Bhalla** - [GitHub](#) | [LinkedIn](#)
+- **Keerthana S** - [GitHub](#) | [LinkedIn](#)
+- **Himanshu Wadhwa** - [GitHub](https://github.com/ninjacode01) | [LinkedIn](#)
