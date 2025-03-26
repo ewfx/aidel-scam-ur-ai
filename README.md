@@ -64,15 +64,17 @@ The architecture Diagram is as follows:
    ```
 3. Install python dependencies  
    ```
-   cd code/src
+   cd code/src/backend
    pip install -r requirements.txt
    ```
 4. Run the frontend  
    ```
+   cd code/src/transaction-uploader-hub-main
    npm run dev
    ```
 5. Run the api
    ```
+   cd code/src/backend
    uvicorn app:app --reload
    ```
 ## 🏗️ Tech Stack
