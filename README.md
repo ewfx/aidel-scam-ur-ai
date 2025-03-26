@@ -58,7 +58,7 @@ Briefly outline the technologies, frameworks, and tools used in development.
 - 🔹 Other: Gemini, OFAC, News api, WikiData, Sanctions Lists
 
 ## 👥 Team
-- **Himanshu Wadhwa** - [GitHub](https://github.com/ninjacode01) | [LinkedIn](#)
 - **Mayank Panda** - [GitHub](#) | [LinkedIn](#)
 - **Harshit Bhalla** - [GitHub](#) | [LinkedIn](#)
 - **Keerthana S** - [GitHub](#) | [LinkedIn](#)
+- **Himanshu Wadhwa** - [GitHub](https://github.com/ninjacode01) | [LinkedIn](#)
