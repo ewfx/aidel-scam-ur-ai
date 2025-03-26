@@ -1,0 +1,101 @@
+   Transaction ID: TXN-2023-7C2D  
+   Sender: "Trident Trust" (BVI, Account: VGB2BVIR024987654321)  
+   Receiver: "Rusal" (UAE, Account: AE450330000012345678901)  
+   Amount: $950000  
+   Notes: "Commodity trade. Approver: Mr. Igor Sechin."  
+---
+   Transaction ID: TXN-2023-13P9Q  
+   Sender: "National Science Foundation" (USA, Account: US123456789)  
+   Receiver: "Stanford University" (USA, Account: US987654321)  
+   Amount: $2500000  
+   Notes: "AI ethics research grant (Award #DEB-2034567)."  
+---
+   Transaction ID: TXN-2023-5A9B  
+   Sender: "Nordic Union Ltd" (Switzerland, IBAN: CH5604835012345678009)  
+   Receiver: "Al-Barakaat" (Cayman Islands, Account: KY987654321)  
+   Amount: $49850  
+   Notes: "Charitable donation. Approved by Mr. Teodoro Nguema. VPN usage detected."  
+---
+   Transaction ID: TXN-2023-14R0S  
+   Sender: "Toyota Motor Corporation" (Japan, Account: JP123456789012)  
+   Receiver: "Bosch GmbH" (Germany, Account: DE89370400440532013000)  
+   Amount: $750000  
+   Notes: "Automotive parts payment (Invoice #BOS-2023-789)."  
+---
+   Transaction ID: TXN-2023-8E4F  
+   Sender: "Mossack Fonseca" (Panama, Account: PA7890123456)  
+   Receiver: "Commerzbank" (Germany, Account: DE89370400440532013000)  
+   Amount: $4750000  
+   Notes: "Consulting fees. Intermediary: HSBC Private Bank Suisse."
+---
+   Transaction ID: TXN-2023-10J6K  
+   Sender: "Viktor Petrov" (Russia, Account: RU9876543210, DOB: 1978-03-15)  
+   Receiver: "Gazprom Neft" (Cyprus, Account: CY987654321098765432109876)  
+   Amount: $950000  
+   Notes: "Oil equipment procurement (Contract #DX-2023)."  
+---
+   Transaction ID: TXN-2023-15T1U  
+   Sender: "BTC-e" (USA, Account: US456789123, EIN: 12-3456789)  
+   Receiver: "Wells Fargo Bank" (USA, Account: US789123456)  
+   Amount: $25000  
+   Notes: "Account settlement (Reference #WF-2022-567)." 
+---
+   Transaction ID: TXN-2023-11L7M  
+   Sender: "Al-Barakaat" (Somalia, Account: SO123456789)  
+   Receiver: "ZTE Corporation" (China, Account: CN9876543210987654321098)  
+   Amount: $500000  
+   Notes: "Emergency telecom equipment funds."  
+---
+   Transaction ID: TXN-2023-12N8O  
+    Sender: "Dover Investments S.A." (BVI, Account: VG1234567890)  
+    Receiver: "Rybolovlev Art Trust" (Switzerland, Account: CH9300762011623852957)  
+    Amount: $2100000  
+    Notes: "Art purchase. Sender IP: Seychelles VPN."  
+---    
+   Transaction ID: TXN-2023-16U2V  
+    Sender: "Siemens AG" (Germany, Account: DE123456789012)  
+    Receiver: "MIT Robotics Lab" (USA, Account: US987654321098)  
+    Amount: $1800000  
+    Notes: "Research collaboration funding (Contract #ROB-2023-456)."  
+---
+    Transaction ID: TXN-2023-17W3X  
+    Sender: "Clinton Foundation" (USA, Account: US123456789012)  
+    Receiver: "Red Cross" (Switzerland, Account: CH5604835012345678009)  
+    Amount: $500000  
+    Notes: "Disaster relief grant (Invoice #RC-2023-789)."  
+---
+    Transaction ID: TXN-2023-18Y4Z  
+    Sender: "HSBC Private Bank Suisse" (Switzerland, Account: CH9876543210987654321098)  
+    Receiver: "Telecommunications Company of Iran" (Iran, Account: IR1234567890123456789012)  
+    Amount: $3500000  
+    Notes: "Network equipment procurement."  
+---
+    Transaction ID: TXN-2023-19A5B  
+    Sender: "Iskander Makhmudov" (Russia, Account: RU1234567890123456789012, DOB: 1963-04-15)  
+    Receiver: "Harvard University" (USA, Account: US987654321098)  
+    Amount: $100000  
+    Notes: "Endowment fund donation."  
+---
+    Transaction ID: TXN-2023-20C6D  
+    Sender: "Odebrecht" (Brazil, Account: BR9876543210987654321098)  
+    Receiver: "Commerzbank" (Germany, Account: DE1234567890123456789012)  
+    Amount: $4200000  
+    Notes: "Construction project management fees."  
+---
+    Transaction ID: TXN-2023-21E7F  
+    Sender: "Nikki Budzinski" (USA, Account: US123456789012, DOB: 1978-06-20)  
+    Receiver: "GBL International Logistics Co Ltd" (China, Account: CN1234567890123456789012)  
+    Amount: $750000  
+    Notes: "Supply chain consulting services."  
+---
+    Transaction ID: TXN-2023-22F8G  
+    Sender: "GBL International Logistics Co Ltd" (China, Account: CN1234567890123456789012)  
+    Receiver: "Chantal Simplice Edouard" (Cameroon, Account: CM9876543210987654321098)  
+    Amount: $350000  
+    Notes: "Freight forwarding fees. Intermediary: Afriland First Bank."  
+---
+    Transaction ID: TXN-2023-23G9H  
+    Sender: "Chantal Simplice Edouard" (Cameroon, Account: CM9876543210987654321098)  
+    Receiver: "Precious Minerals Trading" (UAE, Account: AE1234567890123456789012)  
+    Amount: $280000  
+    Notes: "Mineral samples procurement."

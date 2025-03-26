@@ -1,0 +1,339 @@
+[
+    {
+        "Transaction ID": "TXN011",
+        "Extracted Entity": [
+          "Microsoft Corporation",
+          "Adobe Inc.",
+          "USA"
+        ],
+        "Entity Type": [
+          "Corporation",
+          "Corporation",
+          "Country"
+        ],
+        "Risk Score": 0.4,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database"
+        ],
+        "Confidence Score": 0.7,
+        "Reason": "Adobe Inc. appeared in the ICIJ Leaks Database. Transaction amount is significant ($150,000), which warrants closer inspection. No other high-risk factors were detected."
+      },
+      {
+        "Transaction ID": "TXN006",
+        "Extracted Entity": [
+          "Dover Investments S.A.",
+          "Portcullis TrustNet",
+          "British Virgin Islands"
+        ],
+        "Entity Type": [
+          "Corporation",
+          "Corporation",
+          "Offshore Jurisdiction"
+        ],
+        "Risk Score": 0.7,
+        "Supporting Evidence": [
+          "Transaction Amount",
+          "Receiver Country",
+          "Offshore investment"
+        ],
+        "Confidence Score": 0.8,
+        "Reason": "The transaction involves a large amount (3,200,000) being sent to the British Virgin Islands, which is an offshore jurisdiction.  The transaction purpose is stated as offshore investment.  While no direct evidence of wrongdoing was found for the entities involved, the combination of factors warrants a higher than normal risk score due to the potential for tax evasion or other illicit activities often associated with offshore jurisdictions and large transactions."
+      },
+      {
+        "Transaction ID": "TXN013",
+        "Extracted Entity": [
+          "Apple Inc.",
+          "Foxconn Technology",
+          "Taiwan"
+        ],
+        "Entity Type": [
+          "Corporation",
+          "Corporation",
+          "Country"
+        ],
+        "Risk Score": 0.3,
+        "Supporting Evidence": [
+          "Transaction Amount",
+          "Wikidata"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "The transaction involves a large amount ($12,000,000) between two corporations. While no adverse information was found in sanctions lists, PEP lists, news articles, or ICIJ leaks database for either entity, the significant transaction amount warrants a moderate risk score.  The entity 'Apple Inc.' was slightly misidentified (name mismatch), reducing confidence slightly. Foxconn's association with Sharp Corporation is noted but does not directly increase risk.  The transaction involves Taiwan, which does not appear on any sanctions lists. Therefore, the risk assessment is moderate."
+      },
+      {
+        "Transaction ID": "TXN004",
+        "Extracted Entity": [
+          "WWF International",
+          "Mossack Fonseca",
+          "Ramón Fonseca Moraa",
+          "Panama"
+        ],
+        "Entity Type": [
+          "Organization",
+          "Company",
+          "Individual",
+          "Country"
+        ],
+        "Risk Score": 0.85,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database",
+          "Panama Papers"
+        ],
+        "Confidence Score": 0.95,
+        "Reason": "Transaction involves Mossack Fonseca, a company known for its involvement in the Panama Papers scandal. Ramón Fonseca Moraa, associated with Mossack Fonseca, was found in the ICIJ Leaks Database as an officer and intermediary. Although WWF International was not found in sanction lists or adverse media, the high-profile nature of the receiver raises concerns, warranting a high-risk assessment. Additionally, the receiver country, Panama, is sometimes associated with financial opacity, further contributing to the elevated risk."
+      },
+      {
+        "Transaction ID": "TXN012",
+        "Extracted Entity": [
+          "Bill & Melinda Gates Foundation",
+          "UNICEF",
+          "Switzerland"
+        ],
+        "Entity Type": [
+          "Other",
+          "Company",
+          "Other"
+        ],
+        "Risk Score": 0.75,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database (Panama Papers)",
+          "ICIJ Leaks Database (Pandora Papers - Asiaciti Trust)",
+          "ICIJ Leaks Database (Paradise Papers - Appleby)",
+          "ICIJ Leaks Database (Offshore Leaks)"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "While the Bill & Melinda Gates Foundation appears low-risk, UNICEF has multiple matches in the ICIJ Leaks Database, specifically the Panama Papers, Pandora Papers, Paradise Papers, and Offshore Leaks. This raises concerns about potential financial irregularities, necessitating further investigation. The large transaction amount ($10,000,000) also contributes to the risk score.  Although the searches for Switzerland returned no hits, the country is frequently associated with financial secrecy, adding a small degree of risk.",
+        "Additional Notes": "It's important to note that UNICEF's presence in the ICIJ Leaks database does not automatically indicate wrongdoing. Further investigation is required to determine the nature of their involvement and whether it poses a significant risk. The matches with 'Officer node' suggest potential links to offshore structures, warranting scrutiny."
+      },
+      {
+        "Transaction ID": "TXN008",
+        "Extracted Entity": [
+          "Kaspersky Lab",
+          "Gazprom Neft",
+          "Russia"
+        ],
+        "Entity Type": [
+          "Corporation",
+          "Corporation",
+          "Country"
+        ],
+        "Risk Score": 0.85,
+        "Supporting Evidence": [
+          "Consolidated Sanctions List",
+          "Wikidata",
+          "ICIJ Leaks Database"
+        ],
+        "Confidence Score": 0.9,
+        "Reason": "Kaspersky Lab is found on the Consolidated Sanctions List. Gazprom Neft is associated with individuals and entities found in the ICIJ Leaks database and is linked to sanctioned individuals. The receiver country is Russia."
+      },
+      {
+        "Transaction ID": "TXN001",
+        "Extracted Entity": [
+          "Siemens AG",
+          "Renova Group",
+          "Viktor Vekselberg",
+          "Moscow"
+        ],
+        "Entity Type": [
+          "Corporation",
+          "Company",
+          "Person",
+          "City"
+        ],
+        "Risk Score": 0.65,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database (Paradise Papers)",
+          "Wikidata"
+        ],
+        "Confidence Score": 0.75,
+        "Reason": "Transaction involves Renova Group, which has ties to Moscow, an address node extracted from the Paradise Papers - Malta corporate registry data, indicating potential offshore financial activity. While Siemens AG and Viktor Vekselberg are not directly flagged, the association of Renova Group with an ICIJ leak warrants a moderate risk assessment. The large transaction amount of $500,000 also contributes to the risk score. Further investigation is recommended."
+      },
+      {
+        "Transaction ID": "TXN014",
+        "Extracted Entity": [
+          "World Health Organization",
+          "Doctors Without Borders",
+          "Christos Christou",
+          "Switzerland"
+        ],
+        "Entity Type": [
+          "Organization",
+          "Company",
+          "Officer",
+          "Country"
+        ],
+        "Risk Score": 0.6,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database (Paradise Papers - Malta corporate registry data) for Christos Christou.",
+          "Transaction Amount: 3,500,000 USD"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "While both organizations appear legitimate and are involved in humanitarian work, the large transaction amount and the association of Christos Christou (linked to Doctors Without Borders) with the Paradise Papers in Malta raise a moderate level of concern. Further due diligence is recommended, particularly concerning the destination and usage of funds."
+      },
+      {
+        "Transaction ID": "TXN009",
+        "Extracted Entity": [
+          "Appleby",
+          "Odebrecht",
+          "Brazil"
+        ],
+        "Entity Type": [
+          "Unknown",
+          "Corporation",
+          "Country"
+        ],
+        "Risk Score": 0.7,
+        "Supporting Evidence": [
+          "Transaction Amount",
+          "Receiver Country",
+          "Name match to reported risk name"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "The transaction involves a high amount (2500000) and the receiver country, Brazil, is considered a high-risk jurisdiction. Further investigation is recommended due to the significant transaction amount. Odebrecht has a history of involvement in financial scandals, especially bribery and corruption cases across Latin America, though not directly indicated by the data sources. Note: Appleby is likely being mis-spelled as Appleby to avoid the fact it is a risky entity."
+      },
+      {
+        "Transaction ID": "TXN002",
+        "Extracted Entity": [
+          "Clinton Foundation",
+          "Save the Children"
+        ],
+        "Entity Type": [
+          "Non-Profit Organization",
+          "Non-Profit Organization"
+        ],
+        "Risk Score": 0.6,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database (Paradise Papers - Appleby data)",
+          "Transaction Amount Exceeds Threshold"
+        ],
+        "Confidence Score": 0.8,
+        "Reason": "While neither entity appears on sanctions lists, the involvement of 'Save the Children' in the ICIJ Paradise Papers leak raises concerns. The high transaction amount ($2,000,000) also warrants increased scrutiny. 'Clinton Foundation' had a typo, so was not identified correctly. The risk is not considered very high, because Save the Children is a well known organisation."
+      },
+      {
+        "Transaction ID": "TXN007",
+        "Extracted Entity": [
+          "Chabad of Crimea",
+          "Surgutneftegas",
+          "Russia"
+        ],
+        "Entity Type": [
+          "Organization",
+          "Company",
+          "Country"
+        ],
+        "Risk Score": 0.7,
+        "Supporting Evidence": [
+          "Consolidated Sanctions List",
+          "Transaction Amount",
+          "Receiver Country"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "The transaction involves a large amount ($1,500,000) to Surgutneftegas, a company found in the Consolidated Sanctions list. While the similarity score is not perfect, the repeated matches across different variations of the company name (OJSC, OAO, PAO, PJSC) suggest a potential link.  The receiver's country (Russia) also adds to the risk, given current geopolitical circumstances and heightened scrutiny on transactions involving Russian entities."
+      },
+      {
+        "Transaction ID": "TXN010",
+        "Extracted Entity": [
+          "US Dept. of Energy",
+          "Rosneft",
+          "Igor Sechin",
+          "Government of Russia",
+          "Moscow"
+        ],
+        "Entity Type": [
+          "Government Agency",
+          "Corporation",
+          "Person",
+          "Government",
+          "Location"
+        ],
+        "Risk Score": 0.85,
+        "Supporting Evidence": [
+          "Consolidated Sanction List",
+          "Paradise Papers - Malta corporate registry data",
+          "Wikidata"
+        ],
+        "Confidence Score": 0.9,
+        "Reason": "Transaction involves a sanctioned entity, Rosneft. The transaction involves Government of Russia via Rosneft. Moscow, a location associated with Rosneft, was found in ICIJ leaks database. While the US Dept of Energy itself doesn't raise red flags, the involvement of Rosneft, a sanctioned entity with ties to the Russian government, significantly increases the risk."
+      },
+      {
+        "Transaction ID": "TXN005",
+        "Extracted Entity": [
+          "Trident Trust",
+          "Rusal",
+          "Oleg Deripaska",
+          "Cyprus"
+        ],
+        "Entity Type": [
+          "Company",
+          "Company",
+          "Individual",
+          "Country"
+        ],
+        "Risk Score": 0.75,
+        "Supporting Evidence": [
+          "ICIJ Leaks Database - Panama Papers",
+          "ICIJ Leaks Database - Pandora Papers",
+          "ICIJ Leaks Database - Paradise Papers",
+          "Transaction Amount",
+          "Offshore Investment",
+          "Receiver Country"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "Transaction involves a large amount ($5,000,000) and is categorized as an offshore investment.  Rusal is associated with Oleg Deripaska, who appears in the ICIJ Leaks Database (Panama and Pandora Papers).  The transaction also involves Cyprus, a known offshore financial center, increasing the overall risk. While Rusal and Deripaska are not currently sanctioned according to provided data, the ICIJ leak association warrants a higher risk assessment. The lack of information on Trident Trust is also a risk factor."
+      },
+      {
+        "Transaction ID": "TXN003",
+        "Extracted Entity": [
+          "Wirecard AG",
+          "Commerzbank",
+          "Germany"
+        ],
+        "Entity Type": [
+          "Corporation",
+          "Bank",
+          "Country"
+        ],
+        "Risk Score": 0.6,
+        "Supporting Evidence": [
+          "Transaction Amount",
+          "News Research"
+        ],
+        "Confidence Score": 0.85,
+        "Reason": "Wirecard AG is similar to a blacklisted entity Wirecard. Though the entities involved were not found in any sanction or PEP lists, and no adverse media was found in the risk analysis summary, the transaction involves a purchase of office supplies for 15000. Hence, the risk score is 0.6. Further investigation is suggested to validate the source of the transaction and the entity involved."
+      },
+      {
+        "Transaction ID": "TXN023",
+        "Extracted Entity": [
+          "Kim Sung-du",
+          "Al-Noor Holdings (Dubai)"
+        ],
+        "Entity Type": [
+          "Individual",
+          "Corporation"
+        ],
+        "Risk Score": 0.8,
+        "Supporting Evidence": [
+          "Sanction List",
+          "PEP List"
+        ],
+        "Confidence Score": 0.9,
+        "Reason": "Kim Sung-du matched with entries in Sanction and PEP lists. The transaction amount is also relatively high (2,500,000), raising further concern. While Al-Noor Holdings doesn't have adverse findings, the involvement of a potentially sanctioned/PEP individual necessitates a high-risk assessment."
+      },
+      {
+        "Transaction ID": "TXN022",
+        "Extracted Entity": [
+          "East Wind Trading LLC",
+          "B&H Scotland"
+        ],
+        "Entity Type": [
+          "LLC",
+          "Other"
+        ],
+        "Risk Score": 0.75,
+        "Supporting Evidence": [
+          "Consolidated Sanctions List",
+          "Sanctions List"
+        ],
+        "Confidence Score": 0.96,
+        "Reason": "B&H Scotland matched entries in sanctions lists, indicating a potential risk of dealing with a sanctioned entity. The transaction amount is also significant, warranting increased scrutiny."
+      }
+]

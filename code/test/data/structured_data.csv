@@ -1,0 +1,17 @@
+Transaction ID,Payer Name,Receiver Name,Transaction Details,Amount,Receiver Country
+TXN011,Microsoft Corporation,Adobe Inc.,Software licensing fee,150000,USA
+TXN006,Dover Investments S.A.,Portcullis TrustNet,Offshore investment,3200000,British Virgin Islands
+TXN013,Apple Inc.,Foxconn Technology,Component manufacturing payment,12000000,Taiwan
+TXN004,WWF International,Mossack Fonseca,Environmental project funding,750000,Panama
+TXN012,Bill & Melinda Gates Foundation,UNICEF,Child vaccination program grant,10000000,Switzerland
+TXN008,Kaspersky Lab,Gazprom Neft,Software licensing,800000,Russia
+TXN001,Siemens AG,Renova Group,Payment for services rendered,500000,Russia
+TXN014,World Health Organization,Doctors Without Borders,Emergency relief funding,3500000,Switzerland
+TXN009,Appleby,Odebrecht,Property investment,2500000,Brazil
+TXN002,Clinton Foundation,Save the Children,Grant disbursement,2000000,UK
+TXN007,Chabad of Crimea,Surgutneftegas,Medical equipment donation,1500000,Russia
+TXN010,US Dept. of Energy,Rosneft,Research grant,5000000,Russia
+TXN005,Trident Trust,Rusal,Offshore investment,5000000,Cyprus
+TXN003,Wirecard AG,Commerzbank,Purchase of office supplies,15000,Germany
+TXN023,Kim Sung-du,Al-Noor Holdings (Dubai),"Investment in construction project",2500000,UAE
+TXN022,East Wind Trading LLC,B&H Scotland,"Consulting services for cultural events",375000,UK
