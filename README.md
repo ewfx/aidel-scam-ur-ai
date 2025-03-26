@@ -17,13 +17,13 @@
 This project helps analysing risk from transaction in real-time and gives a comprehensive Risk Report💥.
 
 ## 🎥 Demo 
-📹 [Video Demo](./artifacts/demo/demo-video.mp4) (if applicable)  
+📹 ![Video Demo](./artifacts/demo/demo-video.mp4)
 🖼️ Screenshots:
 
-![Screenshot 1](./artifacts/demo/unstructured_data.png)
-![Screenshot 2](./artifacts/demo/structured_data.png)
-![Screenshot 3](./artifacts/demo/generated_data.png)
-![Screenshot 4](./artifacts/demo/download_options.png)
+![Screenshot 1](./artifacts/demo/unstructured_data.png "Unstructured Data Loaded")
+![Screenshot 2](./artifacts/demo/structured_data.png "Structured Data Loaded")
+![Screenshot 3](./artifacts/demo/generated_data.png "Returned JSON")
+![Screenshot 4](./artifacts/demo/download_options.png "Download Options")
 
 
 ## 💡 Inspiration
@@ -36,7 +36,8 @@ This solution extracts entities from the transaction, searches from them in the 
 We have used ReactJS, Tailwind CSS and Radix UI on frontend and FastAPI on the backend. For our external data sources where we look for entities we are using OFAC API, Wikidata, NewsAPI, ICIJ Leaks API and locally downloaded files containing list of sanctioned entities and PEPs. For Entity Recognition, sentiment analysis from News Articles and overall risk scoring and risk analysis we are using Gemini API Free Tier with the Gemini 2.0 Flash model.
 
 The architecture Diagram is as follows:
-![Architecture](./artifacts/arch/architecture.png)
+![Architecture](./artifacts/arch/architecture.png "Detailed Architecture Diagram")
+
 
 ## 🚧 Challenges We Faced
 - Handling Entities not found in any data sources like Wikidata, sanctions, news etc.
