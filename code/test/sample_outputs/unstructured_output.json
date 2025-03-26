@@ -1,0 +1,110 @@
+[
+    {
+        "Transaction ID": "TXN-2023-7C2D",
+        "Extracted Entity": ["Trident Trust", "Rusal", "Igor Sechin"],
+        "Entity Type": ["Shell Company Facilitator", "Sanctioned Entity", "Sanctioned Individual"],
+        "Risk Score": 0.98,
+        "Supporting Evidence": ["ICIJ Offshore Leaks", "OFAC SDN #13602"],
+        "Confidence Score": 0.96,
+        "Reason": "Trident Trust creates opaque structures; Rusal and Sechin under US/EU sanctions for Russian energy sector ties."
+    },
+    {
+        "Transaction ID": "TXN-2023-5A9B",
+        "Extracted Entity": ["Nordic Union Ltd", "Al-Barakaat", "Teodoro Nguema"],
+        "Entity Type": ["Shell Company", "Terror-Financing Entity", "PEP"],
+        "Risk Score": 0.97,
+        "Supporting Evidence": ["ICIJ Swiss Leaks", "OFAC SDN List", "World Bank PEP List"],
+        "Confidence Score": 0.95,
+        "Reason": "Al-Barakaat designated for terror financing; Teodoro Nguema is Equatorial Guinea PEP."
+    },
+    {
+        "Transaction ID": "TXN-2023-8E4F",
+        "Extracted Entity": ["Mossack Fonseca", "Commerzbank", "HSBC Private Bank Suisse"],
+        "Entity Type": ["Sanctioned Law Firm", "Sanctions-Violating Bank", "High-Risk Bank"],
+        "Risk Score": 0.96,
+        "Supporting Evidence": ["Panama Papers", "US DOJ Fines (Commerzbank)", "ICIJ Swiss Leaks"],
+        "Confidence Score": 0.94,
+        "Reason": "Mossack Fonseca created illicit shell companies; both banks fined for sanctions violations."
+    },
+    {
+        "Transaction ID": "TXN-2023-10J6K",
+        "Extracted Entity": ["Viktor Petrov", "Gazprom Neft"],
+        "Entity Type": ["Sanctioned Individual", "Sanctioned Entity"],
+        "Risk Score": 0.99,
+        "Supporting Evidence": ["OFAC SDN #9876", "EU Sanctions List"],
+        "Confidence Score": 0.98,
+        "Reason": "Both parties under sanctions for ties to Russian energy sector."
+    },
+    {
+        "Transaction ID": "TXN-2023-15T1U",
+        "Extracted Entity": ["BTC-e", "Wells Fargo Bank"],
+        "Entity Type": ["Sanctioned Crypto Exchange", "Bank"],
+        "Risk Score": 0.93,
+        "Supporting Evidence": ["FinCEN Penalty Notice", "Wells Fargo SARs"],
+        "Confidence Score": 0.91,
+        "Reason": "BTC-e sanctioned for money laundering; Wells Fargo has AML deficiencies."
+    },
+    {
+        "Transaction ID": "TXN-2023-9G5H",
+        "Extracted Entity": ["Bin Laden Family Charity", "Al-Haramain Foundation", "Omar Al-Bayoumi"],
+        "Entity Type": ["Terror-Linked NGO", "Terror-Financing Entity", "PEP"],
+        "Risk Score": 0.98,
+        "Supporting Evidence": ["OFAC SDN List", "9/11 Commission Report"],
+        "Confidence Score": 0.97,
+        "Reason": "Both NGOs linked to terror financing; Al-Bayoumi connected to 9/11 hijackers."
+    },
+    {
+        "Transaction ID": "TXN-2023-12N8O",
+        "Extracted Entity": ["Dover Investments S.A.", "Rybolovlev Art Trust"],
+        "Entity Type": ["Shell Company", "Asset-Hiding Vehicle"],
+        "Risk Score": 0.95,
+        "Supporting Evidence": ["ICIJ Offshore Leaks", "OCCRP Investigations"],
+        "Confidence Score": 0.93,
+        "Reason": "Dover Investments linked to Russian oligarchs; Rybolovlev trust used for art purchases."
+    },
+    {
+        "Transaction ID": "TXN-2023-18Y4Z",
+        "Extracted Entity": ["HSBC Private Bank Suisse", "Telecommunications Company of Iran"],
+        "Entity Type": ["High-Risk Bank", "Sanctioned Entity"],
+        "Risk Score": 0.97,
+        "Supporting Evidence": ["ICIJ Swiss Leaks", "OFAC Iran Sanctions"],
+        "Confidence Score": 0.96,
+        "Reason": "HSBC Suisse fined for money laundering; Iranian telecom under US sanctions."
+    },
+    {
+        "Transaction ID": "TXN-2023-19A5B",
+        "Extracted Entity": ["Iskander Makhmudov", "Harvard University"],
+        "Entity Type": ["PEP", "Academic Institution"],
+        "Risk Score": 0.85,
+        "Supporting Evidence": ["OCCRP PEP Database", "Harvard Gift Records"],
+        "Confidence Score": 0.88,
+        "Reason": "Makhmudov is Russian metals magnate with political ties; donation may be reputational laundering."
+    },
+    {
+        "Transaction ID": "TXN-2023-21E7F",
+        "Extracted Entity": ["Nikki Budzinski", "GBL International Logistics Co Ltd"],
+        "Entity Type": ["PEP", "Sanctioned Entity"],
+        "Risk Score": 0.92,
+        "Supporting Evidence": ["US Congress Records", "US Commerce Dept Entity List"],
+        "Confidence Score": 0.90,
+        "Reason": "Budzinski is US Congresswoman (PEP); GBL sanctioned for Iran proliferation ties."
+    },
+    {
+        "Transaction ID": "TXN-2023-22F8G",
+        "Extracted Entity": ["GBL International Logistics Co Ltd", "Chantal Simplice Edouard", "Afriland First Bank"],
+        "Entity Type": ["Sanctioned Entity", "PEP", "High-Risk Bank"],
+        "Risk Score": 0.94,
+        "Supporting Evidence": ["US Entity List", "Cameroon PEP List", "FATF Grey List"],
+        "Confidence Score": 0.92,
+        "Reason": "GBL under US sanctions; Edouard is Cameroonian PEP; Afriland Bank linked to money laundering."
+    },
+    {
+        "Transaction ID": "TXN-2023-23G9H",
+        "Extracted Entity": ["Chantal Simplice Edouard", "Precious Minerals Trading"],
+        "Entity Type": ["PEP", "Conflict Minerals Trader"],
+        "Risk Score": 0.91,
+        "Supporting Evidence": ["Cameroon PEP List", "UN Group of Experts Reports"],
+        "Confidence Score": 0.89,
+        "Reason": "Edouard holds senior government position; UAE trader linked to conflict minerals from DRC."
+    }
+]
